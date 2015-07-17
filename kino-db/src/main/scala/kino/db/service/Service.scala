@@ -20,7 +20,7 @@ with SimpleRoutingApp {
 
   val logger = Logger(LoggerFactory.getLogger("default"))
 
-  val Port = 8080
+  val Port = 50001
 
   startServer(interface = "0.0.0.0", port = Port) {
     FilmApiRouting ~
